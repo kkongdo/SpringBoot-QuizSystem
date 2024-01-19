@@ -34,13 +34,13 @@ public class QuizServiceImpl implements QuizService {
     }
 
     @Override
-    public Boolean checkQuiz(Integer id, Integer myAnswer) {
-        Boolean check = false;
+    public Integer checkQuiz(Integer id, Integer myAnswer) {
+        Integer check = 0;
         Optional<Quiz> optQuiz = repository.findById(id);
         if (optQuiz.isPresent()) {
             Quiz quiz = optQuiz.get();
-            if (quiz.getAnswer().equals(myAnswer)) {
-                check = true;
+            if (quiz.getAnswer() == myAnswer) {
+                check = 1;
             }
         }
         return check;
