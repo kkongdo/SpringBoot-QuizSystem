@@ -15,3 +15,38 @@
   <img src="https://img.shields.io/badge/Spring DATA-6DB33F?style=flat&logo=spring-data&logoColor=white"/>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white"/>
 </p>
+
+## 🗄️ Project Structure
+```bash
+📦src
+ ┣ 📂main
+ ┃ ┣ 📂java
+ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┗ 📂example
+ ┃ ┃ ┃ ┃ ┗ 📂quiz
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizController.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜Quiz.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂form
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizForm.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜QuizService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizServiceImpl.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizApplication.java
+ ┃ ┗ 📂resources
+ ┃ ┃ ┣ 📂templates
+ ┃ ┃ ┃ ┣ 📜answer.html
+ ┃ ┃ ┃ ┣ 📜crud.html
+ ┃ ┃ ┃ ┗ 📜play.html
+ ┃ ┃ ┗ 📜application.properties
+ ┗ 📂test
+ ┃ ┗ 📂java
+ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┗ 📂example
+ ┃ ┃ ┃ ┃ ┗ 📂quiz
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜QuizApplicationTests.java
+```
+ 
